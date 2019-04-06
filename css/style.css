@@ -1,0 +1,30 @@
+
+
+
+/* encabezado*/
+
+#pic{
+	background-color:red;
+}
+
+#nombre{
+	background-color: pink;
+}
+#contacto{
+	background-color: green; 
+}
+
+
+
+
+/* estilo de foto perfil*/
+
+#perfil{
+	border-radius: 107px;
+	float: left;
+}
+
+
+
+
+/* fin enc */
