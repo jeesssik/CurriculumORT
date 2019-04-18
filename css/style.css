@@ -17,6 +17,9 @@
 
 
 
+
+
+
 /* estilo de foto perfil*/
 
 #perfil{
@@ -27,22 +30,40 @@
 }
 
 
+/*
+ contacto
+*/
+.no{
+ 	list-style: none;
+ 	}
 
+/* fin contacto */
 
 /* fin enc */
 
 
 
+#laboral{
+	background: lightgreen;
+}
 
-@media (min-width: 576px) { ... }
+#educacion{
+	background: lightblue;
+}
+
+
+
+@media (min-width: 576px) { 
+
+	 
+
+
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-	.lista li{
-	   list-style-type: none;
-	   display: inline;
-	   padding-right: 5px;
-	}
+	
+	
 
 }
 
