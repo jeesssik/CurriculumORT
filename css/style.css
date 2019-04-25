@@ -42,10 +42,21 @@
 /* fin enc */
 
 
-
+/* sector exp laboral */
 #laboral{
 	background: lightgreen;
 }
+
+.trabajo1{
+	background-color: lightgray;
+}
+
+
+
+
+
+/* fin sector exp laboral */
+
 
 #educacion{
 	background: lightblue;
