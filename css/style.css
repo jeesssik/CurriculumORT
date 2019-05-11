@@ -42,10 +42,19 @@
 /* fin enc */
 
 
-
+/*sector laboral*/
 #laboral{
 	background: lightgreen;
 }
+
+.empresa{
+	background-color: lightgray;
+	padding: 1.5% 0 0.008% 2%;
+
+	margin-bottom: 2%;
+}
+
+/*fin sector laboral*/
 
 #educacion{
 	background: lightblue;
