@@ -42,19 +42,10 @@
 /* fin enc */
 
 
-/*sector laboral*/
+
 #laboral{
 	background: lightgreen;
 }
-
-.empresa{
-	background-color: lightgray;
-	padding: 1.5% 0 0.008% 2%;
-
-	margin-bottom: 2%;
-}
-
-/*fin sector laboral*/
 
 #educacion{
 	background: lightblue;
@@ -69,15 +60,15 @@
 
 }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 	
 	
 
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
