@@ -10,8 +10,13 @@
 #nombre{
 	background-color: pink;
 }
+
+.nombre{
+			margin-top: 10%;
+}
 #contacto{
-	background-color: green; 
+	background-color: green;
+
 }
 
 
@@ -35,10 +40,20 @@
 */
 .no{
  	list-style: none;
+
  	}
+
+ .lista{
+ 	margin-top: 10%; 
+ }
 
 /* fin contacto */
 
+
+
+.titulo-seccion{
+	margin-top: 11px;
+}
 /* fin enc */
 
 
