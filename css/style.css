@@ -62,7 +62,7 @@
 	background: lightgreen;
 }
 
-.empresa{
+.empresa, .curso{
 	background-color: lightgray;
 	padding: 1.5% 0 0.008% 1.5%;
 	margin-bottom: 2%;
@@ -76,7 +76,9 @@
 	background: lightblue;
 }
 
-
+.logo{
+	width: 90%;
+}
 
 
 /*sector habilidades*/
