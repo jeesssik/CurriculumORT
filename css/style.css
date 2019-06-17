@@ -1,26 +1,40 @@
 
-
+#bg:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.7;
+    z-index: -1;
+}
 
 /* encabezado*/
 
 #pic{
-	background-color:red;
+	
 }
 
 #nombre{
-	background-color: pink;
+	
 }
 
-.nombre{
-			margin-top: 10%;
-}
+
 #contacto{
-	background-color: green;
+	
 
 }
 
 
-
+.card{
+	background-color:  rgba(255, 255, 255, 0.3);
+	color: black;
+}
 
 
 
@@ -40,13 +54,11 @@
 */
 .no{
  	list-style: none;
+ 	color: rgba(0, 0, 0, 0.6);
 
  	}
 
- .lista{
- 	margin-top: 10%; 
- }
-
+ 
 /* fin contacto */
 
 
@@ -59,11 +71,11 @@
 
 /* sector laboral*/
 #laboral{
-	background: lightgreen;
+	background: ;
 }
 
 .empresa, .curso{
-	background-color: lightgray;
+	background-color: rgba(47, 44, 44, 0.3);
 	padding: 1.5% 0 0.008% 1.5%;
 	margin-bottom: 2%;
 }
@@ -73,7 +85,7 @@
 
 /* fin laboral */
 #educacion{
-	background: lightblue;
+	background: ;
 }
 
 .logo{
@@ -91,7 +103,9 @@
 
 @media (min-width: 576px) { 
 
-	 
+	 .nombre{
+			margin-top: 10%;
+	}
 
 
 }
@@ -99,12 +113,22 @@
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 	
-	
+		.nombre{
+				margin-top: 6%;
+	}
 
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {  
+	.nombre{
+				margin-top: 5%;
+	}
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+	.nombre{
+				margin-top: 3%;
+	}
+}
