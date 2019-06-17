@@ -6,7 +6,6 @@ body{
 
 }
 
-
 /*#bg:after {
     content : "";
     display: block;
@@ -28,8 +27,6 @@ body{
 }
 
 
-
-
 /* estilo de foto perfil*/
 
 #perfil{
@@ -37,14 +34,12 @@ body{
 	border-radius: 243px;
 }
 
-
 /*
  contacto
 */
 .no{
  	list-style: none;
  	color: rgba(0, 0, 0, 0.6);
-
  	}
 
  .texto{
@@ -111,7 +106,6 @@ body{
 @media (min-width: 768px) { 
 		#perfil{
 			width: 123%;
-
 		} 
 	
 		.nombre{
@@ -127,10 +121,9 @@ body{
 @media (min-width: 992px) {  
 	#perfil{
 		width: 95%;
-
 	} 
 	.nombre{
-				margin-top: 5%;
+		margin-top: 5%;
 	}
 	.empresa, .curso{
 		background-color: rgba(47, 40, 127, 0.2);
@@ -141,8 +134,6 @@ body{
 @media (min-width: 1200px) {
 	#perfil{
 		width: 76%;
-
-
 	} 
 	.nombre{
 		margin-top: 3%;
