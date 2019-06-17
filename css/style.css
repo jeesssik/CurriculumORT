@@ -1,42 +1,27 @@
 body{
-	color: rgba(0, 0, 0, 0.6);
+	color: rgba(0, 0, 0, 0.8);
+	 background-image: url(../images/wall.png);
+	 background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
-#bg:after {
+/*#bg:after {
     content : "";
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../images/wall.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: 200%;
-    opacity : 0.7;
+    height: 140%;
+    opacity : 0.9;
     z-index: -1;
-}
-
+}*/
 /* encabezado*/
 
-#pic{
-	
-}
-
-#nombre{
-	
-}
-
-
-#contacto{
-	
-
-}
-
-
 .card{
-	background-color:  rgba(255, 255, 255, 0.3);
+	background-color:  rgba(255, 255, 255, 0.2);
 	color: black;
 	border-radius: 10px;
 	margin-top: 5px;
@@ -63,7 +48,9 @@ body{
 
  	}
 
- 
+ .texto{
+ 	color: rgba(0, 0, 34, 0.5);
+ }
 /* fin contacto */
 
 
@@ -80,7 +67,7 @@ body{
 }
 
 .empresa, .curso{
-	background-color: rgba(47, 44, 44, 0.3);
+	background-color: rgba(47, 40, 127, 0.1);
 	padding: 1.5% 0 0.008% 1.5%;
 	margin-bottom: 2%;
 }
@@ -112,7 +99,9 @@ body{
 			margin-top: 10%;
 	}
 
-
+	.empresa, .curso{
+	background-color: rgba(47, 40, 127, 0.2);
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -120,7 +109,10 @@ body{
 	
 		.nombre{
 				margin-top: 6%;
-	}
+		}
+		.empresa, .curso{
+		background-color: rgba(47, 40, 127, 0.2);
+		}
 
 }
 
@@ -129,6 +121,9 @@ body{
 	.nombre{
 				margin-top: 5%;
 	}
+	.empresa, .curso{
+		background-color: rgba(47, 40, 127, 0.2);
+		}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -136,4 +131,7 @@ body{
 	.nombre{
 				margin-top: 3%;
 	}
+	.empresa, .curso{
+		background-color: rgba(47, 40, 127, 0.2);
+		}
 }
